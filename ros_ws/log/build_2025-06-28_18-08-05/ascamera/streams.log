@@ -1,0 +1,31 @@
+[0.031s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/elf/ros_ws/build/ascamera -- -j8 -l8
+[0.392s] [100%] Built target ascamera_node
+[0.447s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/elf/ros_ws/build/ascamera -- -j8 -l8
+[0.488s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/elf/ros_ws/build/ascamera
+[0.514s] -- Install configuration: ""
+[0.516s] -- Execute custom install script
+[0.516s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/lib/ascamera/ascamera_node
+[0.518s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/ascamera.launch.py
+[0.518s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/changA.launch.py
+[0.519s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60c.launch.py
+[0.520s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60cn.launch.py
+[0.520s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kondyor.launch.py
+[0.520s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_a.launch.py
+[0.521s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_c.launch.py
+[0.521s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/nuwa.launch.py
+[0.521s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/package_run_dependencies/ascamera
+[0.522s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/parent_prefix_path/ascamera
+[0.522s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.sh
+[0.522s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.dsv
+[0.523s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.sh
+[0.523s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.dsv
+[0.523s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.bash
+[0.524s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.sh
+[0.524s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.zsh
+[0.525s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.dsv
+[0.525s] -- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/package.dsv
+[0.551s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/packages/ascamera
+[0.552s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig.cmake
+[0.552s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig-version.cmake
+[0.552s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/package.xml
+[0.557s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/elf/ros_ws/build/ascamera

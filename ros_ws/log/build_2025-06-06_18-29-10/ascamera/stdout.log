@@ -1,0 +1,76 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/elf/ros_ws/ascamera/include;/home/elf/ros_ws/ascamera/libs/include;$<BUILD_INTERFACE:/home/elf/ros_ws/ascamera/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/elf/ros_ws/build/ascamera
+[ 50%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/ascamera_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/Camera.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/TfTreeFrameIdInfo.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/CameraSrv.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/CameraPublisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ascamera_node[0m
+[100%] Built target ascamera_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/elf/ros_ws/install/ascamera/lib/ascamera/ascamera_node
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/ascamera.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/changA.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60c.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60cn.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kondyor.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_a.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_c.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/nuwa.launch.py
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/package_run_dependencies/ascamera
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/parent_prefix_path/ascamera
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.sh
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.dsv
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.sh
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.dsv
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.bash
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.sh
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.zsh
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.dsv
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/package.dsv
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/packages/ascamera
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig.cmake
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig-version.cmake
+-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/package.xml

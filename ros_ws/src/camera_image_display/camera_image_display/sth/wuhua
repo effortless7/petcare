@@ -1,0 +1,7 @@
+(base) elf@elf2-desktop:~$ curl -X POST "https://www.wmhua.cn/api/v1/upload" \
+-H "Authorization: Bearer F7RxSxqAjGP631gtee1BHEaNKtr4MGfmqKdsUnNb" \
+-H "Accept: application/json" \
+-H "Content-Type: multipart/form-data" \
+-F "file=@/tmp/camera_image_for_llm.jpg" \
+-k  # 跳过SSL证书验证
+{"status":false,"message":"\u56fe\u7247\u5ba1\u6838\u9519\u8bef: NsfwJs \u56fe\u7247\u5b89\u5168\u68c0\u6d4b\u5931\u8d25","data":{}}(base) elf@elf2-desktop:~$ 这样课上传成功，怎么不封装进python就不行了呢

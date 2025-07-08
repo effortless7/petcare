@@ -1,0 +1,61 @@
+[0.027s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/cmake /home/elf/ros_ws/ascamera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elf/ros_ws/install/ascamera
+[0.059s] [0mdefault compiler:aarch64-linux-gnu-g++[0m
+[0.059s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.367s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.399s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.402s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.410s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.481s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.482s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.679s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.724s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.783s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.826s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[1.322s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.337s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.599s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.613s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.630s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.839s] -- Found Qhull version 8.0.2
+[2.083s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.327s] [33mCMake Warning (dev) at CMakeLists.txt:40 (find_package):
+[2.327s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.327s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.327s]   command to set the policy and suppress this warning.
+[2.327s] 
+[2.327s]   CMake variable PCL_ROOT is set to:
+[2.327s] 
+[2.328s]     /usr
+[2.328s] 
+[2.328s]   For compatibility, CMake is ignoring the variable.
+[2.328s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.328s] [0m
+[2.340s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.345s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.464s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.469s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.471s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.490s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.537s] Traceback (most recent call last):
+[2.538s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[2.538s]     from catkin_pkg.package import parse_package_string
+[2.539s] ModuleNotFoundError: No module named 'catkin_pkg'
+[2.543s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.544s]   execute_process(/home/elf/ros_venv/bin/python3
+[2.544s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.544s]   /home/elf/ros_ws/ascamera/package.xml
+[2.544s]   /home/elf/ros_ws/build/ascamera/ament_cmake_core/package.cmake) returned
+[2.544s]   error code 1
+[2.544s] Call Stack (most recent call first):
+[2.544s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.544s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.544s]   CMakeLists.txt:108 (ament_lint_auto_find_test_dependencies)
+[2.544s] 
+[2.544s] [0m
+[2.544s] -- Configuring incomplete, errors occurred!
+[2.545s] See also "/home/elf/ros_ws/build/ascamera/CMakeFiles/CMakeOutput.log".
+[2.595s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/cmake /home/elf/ros_ws/ascamera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elf/ros_ws/install/ascamera

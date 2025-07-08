@@ -1,0 +1,5 @@
+  File "/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display/llm_auto_node.py", line 94
+    'text': """
+            ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 155)
+

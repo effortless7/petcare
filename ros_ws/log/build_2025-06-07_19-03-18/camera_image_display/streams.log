@@ -1,0 +1,36 @@
+[1.033s] Invoking command in '/home/elf/ros_ws/build/camera_image_display': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/elf/ros_ws/build/camera_image_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/elf/ros_ws/build/camera_image_display/build
+[1.380s] running develop
+[1.560s] Removing /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera-image-display.egg-link (link to .)
+[1.655s] Invoked command in '/home/elf/ros_ws/build/camera_image_display' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/elf/ros_ws/build/camera_image_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/elf/ros_ws/build/camera_image_display/build
+[1.661s] Invoking command in '/home/elf/ros_ws/src/camera_image_display': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/elf/ros_ws/build/camera_image_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_image_display build --build-base /home/elf/ros_ws/build/camera_image_display/build install --record /home/elf/ros_ws/build/camera_image_display/install.log --single-version-externally-managed install_data --force
+[1.963s] running egg_info
+[1.963s] writing ../../build/camera_image_display/camera_image_display.egg-info/PKG-INFO
+[1.964s] writing dependency_links to ../../build/camera_image_display/camera_image_display.egg-info/dependency_links.txt
+[1.964s] writing entry points to ../../build/camera_image_display/camera_image_display.egg-info/entry_points.txt
+[1.965s] writing requirements to ../../build/camera_image_display/camera_image_display.egg-info/requires.txt
+[1.965s] writing top-level names to ../../build/camera_image_display/camera_image_display.egg-info/top_level.txt
+[1.968s] reading manifest file '../../build/camera_image_display/camera_image_display.egg-info/SOURCES.txt'
+[1.969s] writing manifest file '../../build/camera_image_display/camera_image_display.egg-info/SOURCES.txt'
+[1.970s] running build
+[1.970s] running build_py
+[1.971s] creating /home/elf/ros_ws/build/camera_image_display/build
+[1.971s] creating /home/elf/ros_ws/build/camera_image_display/build/lib
+[1.971s] creating /home/elf/ros_ws/build/camera_image_display/build/lib/camera_image_display
+[1.972s] copying camera_image_display/__init__.py -> /home/elf/ros_ws/build/camera_image_display/build/lib/camera_image_display
+[1.972s] copying camera_image_display/camera_image_display.py -> /home/elf/ros_ws/build/camera_image_display/build/lib/camera_image_display
+[1.972s] running install
+[1.973s] running install_lib
+[1.973s] creating /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display
+[1.973s] copying /home/elf/ros_ws/build/camera_image_display/build/lib/camera_image_display/__init__.py -> /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display
+[1.974s] copying /home/elf/ros_ws/build/camera_image_display/build/lib/camera_image_display/camera_image_display.py -> /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display
+[1.974s] byte-compiling /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display/__init__.py to __init__.cpython-310.pyc
+[1.975s] byte-compiling /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display/camera_image_display.py to camera_image_display.cpython-310.pyc
+[1.975s] running install_data
+[1.975s] copying resource/camera_image_display -> /home/elf/ros_ws/install/camera_image_display/share/ament_index/resource_index/packages
+[1.976s] copying package.xml -> /home/elf/ros_ws/install/camera_image_display/share/camera_image_display
+[1.976s] running install_egg_info
+[1.979s] Copying ../../build/camera_image_display/camera_image_display.egg-info to /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display-0.0.0-py3.10.egg-info
+[1.980s] running install_scripts
+[2.019s] Installing camera_image_display script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[2.020s] writing list of installed files to '/home/elf/ros_ws/build/camera_image_display/install.log'
+[2.118s] Invoked command in '/home/elf/ros_ws/src/camera_image_display' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/elf/ros_ws/build/camera_image_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_image_display build --build-base /home/elf/ros_ws/build/camera_image_display/build install --record /home/elf/ros_ws/build/camera_image_display/install.log --single-version-externally-managed install_data --force

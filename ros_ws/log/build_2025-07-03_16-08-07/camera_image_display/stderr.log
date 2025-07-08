@@ -1,0 +1,5 @@
+  File "/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display/unified_llm_node.py", line 206
+    return url if url else "https://i.ibb.co/5hwzP76z/dbbbec09c851.jpg"
+    ^^^^^^
+SyntaxError: expected 'except' or 'finally' block
+

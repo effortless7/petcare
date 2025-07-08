@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libsherpa-onnx-c-api.a CMakeFiles/sherpa-onnx-c-api.dir/c-api.cc.o
+/usr/bin/ranlib ../../lib/libsherpa-onnx-c-api.a

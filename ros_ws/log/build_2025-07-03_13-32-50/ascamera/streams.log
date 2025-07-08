@@ -1,0 +1,99 @@
+[0.028s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/elf/ros_ws/build/ascamera -- -j8 -l8
+[0.395s] [ 16%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/ascamera_node.cpp.o[0m
+[0.403s] [ 33%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/Camera.cpp.o[0m
+[0.414s] [ 50%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/CameraPublisher.cpp.o[0m
+[0.424s] [ 83%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/TfTreeFrameIdInfo.cpp.o[0m
+[0.425s] [ 83%] [32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/CameraSrv.cpp.o[0m
+[3.547s] In file included from [01m[K/home/elf/ros_ws/ascamera/include/CameraPublisher.h:40[m[K,
+[3.548s]                  from [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:29[m[K:
+[3.548s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.549s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.550s]       |  [01;35m[K^~~~~~~[m[K
+[3.554s] In file included from [01m[K/home/elf/ros_ws/ascamera/include/CameraPublisher.h:40[m[K,
+[3.555s]                  from [01m[K/home/elf/ros_ws/ascamera/src/ascamera_node.cpp:16[m[K:
+[3.556s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.556s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.557s]       |  [01;35m[K^~~~~~~[m[K
+[4.121s] In file included from [01m[K/home/elf/ros_ws/ascamera/include/CameraPublisher.h:40[m[K,
+[4.122s]                  from [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:13[m[K:
+[4.122s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[4.123s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[4.123s]       |  [01;35m[K^~~~~~~[m[K
+[10.027s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:[m[K In member function ‘[01m[Kint CameraSrv::start()[m[K’:
+[10.028s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:63:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[10.028s]    63 |         [01;35m[K.[m[KonAttached = onAttached,
+[10.029s]       |         [01;35m[K^[m[K
+[10.029s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:64:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[10.029s]    64 |         [01;35m[K.[m[KonDetached = onDetached,
+[10.030s]       |         [01;35m[K^[m[K
+[10.030s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:65:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[10.031s]    65 |         [01;35m[K.[m[KprivateData = this,
+[10.031s]       |         [01;35m[K^[m[K
+[10.038s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:[m[K In static member function ‘[01m[Kstatic void CameraSrv::onAttached(AS_CAM_ATTR_S*, void*)[m[K’:
+[10.038s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:110:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[10.039s]   110 |         [01;35m[K.[m[Kopen = true,
+[10.039s]       |         [01;35m[K^[m[K
+[10.040s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:111:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[10.040s]   111 |         [01;35m[K.[m[Kstart = true,
+[10.040s]       |         [01;35m[K^[m[K
+[10.041s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:112:9:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[10.041s]   112 |         [01;35m[K.[m[Kimage_flag = 0,
+[10.041s]       |         [01;35m[K^[m[K
+[10.092s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:[m[K In member function ‘[01m[Kint CameraSrv::getConfigFile(AS_CAM_PTR, std::string&, AS_SDK_CAM_MODEL_E)[m[K’:
+[10.092s] [01m[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:294:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kis_exist[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[10.092s]   294 |     bool [01;35m[Kis_exist[m[K = false;
+[10.093s]       |          [01;35m[K^~~~~~~~[m[K
+[10.493s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::irInfoPublisher(AS_CAM_PTR, const AS_SDK_Data_s*, AS_CAM_Parameter_s&, builtin_interfaces::msg::Time)[m[K’:
+[10.493s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:925:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.494s]   925 |                                       AS_CAM_Parameter_s &stParameter, [01;35m[Kbuiltin_interfaces::msg::Time time[m[K)
+[10.494s]       |                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.497s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::peakInfoPublisher(AS_CAM_PTR, const AS_SDK_Data_s*, AS_CAM_Parameter_s&, builtin_interfaces::msg::Time)[m[K’:
+[10.498s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:957:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.498s]   957 |                                         AS_CAM_Parameter_s &stParameter, [01;35m[Kbuiltin_interfaces::msg::Time time[m[K)
+[10.499s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.501s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::depthMergeInfoPublisher(AS_CAM_PTR, const AS_SDK_MERGE_s*, AS_CAM_Parameter_s&, builtin_interfaces::msg::Time)[m[K’:
+[10.501s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1004:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KstParameter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.502s]  1004 |         [01;35m[KAS_CAM_Parameter_s &stParameter[m[K, builtin_interfaces::msg::Time time)
+[10.502s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[10.503s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::pointcloudMergePublisher(AS_CAM_PTR, const AS_SDK_MERGE_s*, AS_CAM_Parameter_s&)[m[K’:
+[10.503s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1057:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[10.504s]  1057 |     for (int i = 0 ; [01;35m[Ki < stPointCloud.points.size()[m[K; i++) {
+[10.504s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.505s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1042:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KstParameter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.505s]  1042 |         [01;35m[KAS_CAM_Parameter_s &stParameter[m[K)
+[10.505s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[10.552s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:[m[K In member function ‘[01m[Kvoid CameraPublisher::saveImage(const string&, const AS_SDK_Data_s*)[m[K’:
+[10.552s] [01m[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1231:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kserialno[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.553s]  1231 | void CameraPublisher::saveImage([01;35m[Kconst std::string &serialno[m[K, const AS_SDK_Data_s *pstData)
+[10.553s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[26.157s] [100%] [32m[1mLinking CXX executable ascamera_node[0m
+[27.282s] [100%] Built target ascamera_node
+[27.317s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/elf/ros_ws/build/ascamera -- -j8 -l8
+[27.352s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/elf/ros_ws/build/ascamera
+[27.376s] -- Install configuration: ""
+[27.376s] -- Execute custom install script
+[27.377s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/lib/ascamera/ascamera_node
+[27.378s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/ascamera.launch.py
+[27.379s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/changA.launch.py
+[27.379s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60c.launch.py
+[27.380s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60cn.launch.py
+[27.380s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kondyor.launch.py
+[27.381s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_a.launch.py
+[27.381s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_c.launch.py
+[27.382s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/nuwa.launch.py
+[27.382s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/package_run_dependencies/ascamera
+[27.382s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/parent_prefix_path/ascamera
+[27.383s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.sh
+[27.383s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.dsv
+[27.383s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.sh
+[27.384s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.dsv
+[27.384s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.bash
+[27.385s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.sh
+[27.385s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.zsh
+[27.385s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.dsv
+[27.386s] -- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/package.dsv
+[27.407s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/packages/ascamera
+[27.408s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig.cmake
+[27.409s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig-version.cmake
+[27.410s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/package.xml
+[27.416s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/elf/ros_ws/build/ascamera

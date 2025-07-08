@@ -1,0 +1,31 @@
+[0.973s] Invoking command in '/home/elf/ros_ws/src/camera_image_display': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/elf/ros_ws/build/camera_image_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_image_display build --build-base /home/elf/ros_ws/build/camera_image_display/build install --record /home/elf/ros_ws/build/camera_image_display/install.log --single-version-externally-managed install_data
+[1.279s] running egg_info
+[1.280s] writing ../../build/camera_image_display/camera_image_display.egg-info/PKG-INFO
+[1.280s] writing dependency_links to ../../build/camera_image_display/camera_image_display.egg-info/dependency_links.txt
+[1.280s] writing entry points to ../../build/camera_image_display/camera_image_display.egg-info/entry_points.txt
+[1.281s] writing requirements to ../../build/camera_image_display/camera_image_display.egg-info/requires.txt
+[1.281s] writing top-level names to ../../build/camera_image_display/camera_image_display.egg-info/top_level.txt
+[1.283s] reading manifest file '../../build/camera_image_display/camera_image_display.egg-info/SOURCES.txt'
+[1.284s] writing manifest file '../../build/camera_image_display/camera_image_display.egg-info/SOURCES.txt'
+[1.285s] running build
+[1.285s] running build_py
+[1.286s] copying camera_image_display/ros_llm_inference_node.py -> /home/elf/ros_ws/build/camera_image_display/build/lib/camera_image_display
+[1.286s] running install
+[1.286s] running install_lib
+[1.287s] copying /home/elf/ros_ws/build/camera_image_display/build/lib/camera_image_display/ros_llm_inference_node.py -> /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display
+[1.288s] byte-compiling /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display/ros_llm_inference_node.py to ros_llm_inference_node.cpython-310.pyc
+[1.290s] running install_data
+[1.290s] running install_egg_info
+[1.293s] removing '/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display-0.0.0-py3.10.egg-info' (and everything under it)
+[1.294s] Copying ../../build/camera_image_display/camera_image_display.egg-info to /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display-0.0.0-py3.10.egg-info
+[1.294s] running install_scripts
+[1.329s] Installing camera_image_display script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.329s] Installing rgbd_depth_reader_node script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.330s] Installing ros_llm_inference_node script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.330s] Installing speaker script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.330s] Installing test_voice_node script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.331s] Installing web_camera_node script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.331s] Installing yolo8 script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.331s] Installing yolo_depth_fusion_node script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display
+[1.332s] writing list of installed files to '/home/elf/ros_ws/build/camera_image_display/install.log'
+[1.431s] Invoked command in '/home/elf/ros_ws/src/camera_image_display' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/elf/ros_ws/build/camera_image_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_image_display build --build-base /home/elf/ros_ws/build/camera_image_display/build install --record /home/elf/ros_ws/build/camera_image_display/install.log --single-version-externally-managed install_data

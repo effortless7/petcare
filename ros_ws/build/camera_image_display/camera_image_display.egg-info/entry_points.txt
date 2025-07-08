@@ -1,0 +1,15 @@
+[console_scripts]
+camera_image_display = camera_image_display.camera_image_display:main
+feishu_logger = camera_image_display.feishu_logger:main
+llm_auto_node = camera_image_display.llm_auto_node:main
+llm_web_node = camera_image_display.llm_web_node:main
+rgbd_depth_reader_node = camera_image_display.rgbd_depth_reader_node:main
+ros_llm_inference_node = camera_image_display.ros_llm_inference_node:main
+speaker = camera_image_display.speaker:main
+test_voice_node = camera_image_display.test_voice_node:main
+unified_llm_node = camera_image_display.unified_llm_node:main
+web_camera_node = camera_image_display.web_camera_node:main
+web_voice_node = camera_image_display.web_voice_node:main
+yolo8 = camera_image_display.yolo8:main
+yolo_depth_fusion_node = camera_image_display.yolo_depth_fusion_node:main
+

@@ -1,0 +1,1 @@
+/home/elf/ros_ws/ascamera/launch/hp60c.launch.py

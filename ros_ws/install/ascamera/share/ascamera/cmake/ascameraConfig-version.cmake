@@ -1,0 +1,1 @@
+/home/elf/ros_ws/build/ascamera/ament_cmake_core/ascameraConfig-version.cmake

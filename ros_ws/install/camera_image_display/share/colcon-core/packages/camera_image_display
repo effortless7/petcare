@@ -1,0 +1,1 @@
+cv_bridge:python3-fastapi:python3-numpy:python3-opencv:python3-uvicorn:rclpy:rosidl_default_runtime:sensor_msgs

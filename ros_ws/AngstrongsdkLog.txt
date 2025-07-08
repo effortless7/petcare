@@ -1,0 +1,42 @@
+[INFO] [launch]: All log files can be found below /home/elf/.ros/log/2025-07-03-22-04-37-893310-elf2-desktop-2098
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ascamera_node-1]: process started with pid [2155]
+[ascamera_node-1] [INFO] [1751551478.946884290] [as_logger]: hello world angstrong camera ros2 node
+[ascamera_node-1] 2025-07-03 22:04:39[INFO] [CameraPublisher.cpp] [1582] [printLaunchParams] get pub_tfTree 1
+[ascamera_node-1] 2025-07-03 22:04:39[INFO] [CameraSrv.cpp] [35] [CameraSrv] Angstrong camera server
+[ascamera_node-1] 2025-07-03 22:04:39[INFO] [CameraSrv.cpp] [45] [CameraSrv] Angstrong camera sdk version:v1.2.22.20240516
+[ascamera_node-1] 2025-07-03 22:04:40[INFO] [CameraSrv.cpp] [114] [onAttached] attached
+[ascamera_node-1] 2025-07-03 22:04:40[INFO] [CameraSrv.cpp] [145] [onAttached] this is a new attach device, create and open it
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraSrv.cpp] [154] [onAttached] get model type 9
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraSrv.cpp] [342] [getConfigFile] get file: /home/elf/ros_ws/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraPublisher.cpp] [1501] [logCameraPathInfo] usb camera
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraPublisher.cpp] [1502] [logCameraPathInfo] bnum:1
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraPublisher.cpp] [1503] [logCameraPathInfo] dnum:4
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraPublisher.cpp] [1504] [logCameraPathInfo] port_numbers:1.2
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraPublisher.cpp] [171] [onCameraAttached] create a new publisher info set
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [TfTreeFrameIdInfo.cpp] [11] [TfTreeFrameIdInfo] Namespace /ascamera
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraHp60c.cpp] [128] [open] according to the configuration file.
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraHp60c.cpp] [1528] [parseConfigFileParameter] moduleName:AS_CAM_HP60C
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraHp60c.cpp] [1555] [parseConfigFileParameter] Parsing config file /home/elf/ros_ws/ascamera/configurationfiles/hp60c_v2_00_20230704_configEncrypt.json
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraHp60c.cpp] [1620] [parseConfigFileParameter] configuration protocol Version: v2.x
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraHp60c.cpp] [1631] [parseConfigFileParameter] configuration Version: v2.0.0.20230704
+[ascamera_node-1] 2025-07-03 22:04:41[INFO] [CameraHp60c.cpp] [1796] [setParamersAfterOpenCam] Camera confiParaEnable true, setting configuration parameter
+[ascamera_node-1] 2025-07-03 22:04:42[ERROR] [XuCmdCameraHp60c.cpp] [454] [getMjpegSize] get mjpeg from xu command failed
+[ascamera_node-1] 2025-07-03 22:04:42[INFO] [XuCmdCameraHp60c.cpp] [458] [getMjpegSize] mjpeg size:640x480
+[ascamera_node-1] 2025-07-03 22:04:42[INFO] [CameraPublisher.cpp] [356] [onCameraOpen] camera opened
+[ascamera_node-1] 2025-07-03 22:04:42[INFO] [CameraPublisher.cpp] [370] [onCameraOpen] get config info, ret 0, is_Registration 1
+[ascamera_node-1] 2025-07-03 22:04:42[INFO] [Camera.cpp] [61] [init] #camera[0x5575640300] SN[ASC60CF08000293]'s firmware version:DLS_VERc20865=:V01.09_2024110714:V01.19_2024110714:L01
+[ascamera_node-1] 2025-07-03 22:04:42[INFO] [CameraHp60c.cpp] [260] [startStreaming] start streaming
+[ascamera_node-1] 2025-07-03 22:04:42[INFO] [CameraSrv.cpp] [202] [onAttached] attached end
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [CameraHp60c.cpp] [912] [setInternalParameter] mjpeg info: size(640x480)
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [127] [backgroundThread] SN [ ASC60CF08000293 ]'s parameter:
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [128] [backgroundThread] irfx: 426.523
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [129] [backgroundThread] irfy: 425.979
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [130] [backgroundThread] ircx: 315.64
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [131] [backgroundThread] ircy: 241.04
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [132] [backgroundThread] rgbfx: 570.764
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [133] [backgroundThread] rgbfy: 570.084
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [134] [backgroundThread] rgbcx: 329.63
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [Camera.cpp] [135] [backgroundThread] rgbcy: 239.273
+[ascamera_node-1] 
+[ascamera_node-1] 2025-07-03 22:04:44[INFO] [CameraHp60c.cpp] [1149] [streamCallback] set gain ret 0, gain 4

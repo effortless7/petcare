@@ -1,0 +1,518 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (ascamera) JobQueued: {'identifier': 'ascamera', 'dependencies': OrderedDict()}
+[0.000868] (camera_image_display) JobQueued: {'identifier': 'camera_image_display', 'dependencies': OrderedDict()}
+[0.001027] (ascamera) JobStarted: {'identifier': 'ascamera'}
+[0.008644] (camera_image_display) JobStarted: {'identifier': 'camera_image_display'}
+[0.019617] (ascamera) JobProgress: {'identifier': 'ascamera', 'progress': 'cmake'}
+[0.022101] (ascamera) Command: {'cmd': ['/usr/bin/cmake', '/home/elf/ros_ws/ascamera', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/elf/ros_ws/install/ascamera'], 'cwd': '/home/elf/ros_ws/build/ascamera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'elf'), ('SSH_CLIENT', '10.198.178.206 57244 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::rknn-llm/rkllm-runtime/linux/librkllm_api/aarch64'), ('BROWSER', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/elf'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/elf/ros_ws'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f951855c-d45e-49d4-8ed2-2f73eeaf5c86.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](ros_venv) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/elf/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'elf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/elf/ros_venv/bin:/home/elf/Software/watchload-for-rk3588:/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/elf/.local/bin:/opt/ros/humble/bin:/home/elf/miniconda3/condabin:/home/elf/Software/watchload-for-rk3588:/home/elf/Software/watchload-for-rk3588:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(ros_venv)'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eb470209b5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/elf/ros_ws/install/camera_image_display:/home/elf/ros_ws/install/ascamera:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/elf/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VIRTUAL_ENV', '/home/elf/ros_venv'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/elf/ros_ws/build/ascamera'), ('CONDA_EXE', '/home/elf/miniconda3/bin/conda'), ('SSH_CONNECTION', '10.198.178.206 57244 10.195.9.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/elf/ros_ws/build/camera_image_display:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/elf/miniconda3'), ('TZ', 'Asia/Shanghai'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/elf/ros_ws/install/ascamera:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble')]), 'shell': False}
+[0.077426] (ascamera) StderrLine: {'line': b'\x1b[0mdefault compiler:aarch64-linux-gnu-g++\x1b[0m\n'}
+[0.079189] (ascamera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100013] (-) TimerEvent: {}
+[0.201053] (-) TimerEvent: {}
+[0.302129] (-) TimerEvent: {}
+[0.346165] (ascamera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.355760] (ascamera) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.394278] (ascamera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.397505] (ascamera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.402552] (-) TimerEvent: {}
+[0.407988] (ascamera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.423487] (ascamera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.444045] (ascamera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.489510] (ascamera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.492057] (ascamera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.502540] (-) TimerEvent: {}
+[0.594561] (ascamera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.602686] (-) TimerEvent: {}
+[0.666836] (ascamera) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.702973] (-) TimerEvent: {}
+[0.711489] (ascamera) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.772529] (ascamera) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.803256] (-) TimerEvent: {}
+[0.816514] (ascamera) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[0.903552] (-) TimerEvent: {}
+[1.004549] (-) TimerEvent: {}
+[1.028856] (camera_image_display) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/elf/ros_ws/build/camera_image_display/build', '--no-deps', 'symlink_data'], 'cwd': '/home/elf/ros_ws/build/camera_image_display', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'LANGUAGE': 'zh_CN:en', 'USER': 'elf', 'SSH_CLIENT': '10.198.178.206 57244 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::rknn-llm/rkllm-runtime/linux/librkllm_api/aarch64', 'BROWSER': '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/elf', 'MUTTER_DEBUG_ENABLE_ATOMIC_KMS': '0', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/elf/ros_ws', 'TERM_PROGRAM_VERSION': '0.50.7', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f951855c-d45e-49d4-8ed2-2f73eeaf5c86.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](ros_venv) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/elf/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'elf', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/elf/ros_venv/bin:/home/elf/Software/watchload-for-rk3588:/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/elf/.local/bin:/opt/ros/humble/bin:/home/elf/miniconda3/condabin:/home/elf/Software/watchload-for-rk3588:/home/elf/Software/watchload-for-rk3588:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'VIRTUAL_ENV_PROMPT': '(ros_venv)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-eb470209b5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/elf/ros_ws/install/camera_image_display:/home/elf/ros_ws/install/ascamera:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/elf/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'CLUTTER_PAINT': 'disable-dynamic-max-render-time', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'MUTTER_DEBUG_FORCE_KMS_MODE': 'simple', 'VIRTUAL_ENV': '/home/elf/ros_venv', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/elf/ros_ws/build/camera_image_display', 'CONDA_EXE': '/home/elf/miniconda3/bin/conda', 'SSH_CONNECTION': '10.198.178.206 57244 10.195.9.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/elf/ros_ws/build/camera_image_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:/home/elf/ros_ws/build/camera_image_display:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'CONDA_PREFIX': '/home/elf/miniconda3', 'TZ': 'Asia/Shanghai', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/elf/ros_ws/install/ascamera'}, 'shell': False}
+[1.104724] (-) TimerEvent: {}
+[1.205519] (-) TimerEvent: {}
+[1.306341] (-) TimerEvent: {}
+[1.320463] (ascamera) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.334490] (ascamera) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.381466] (camera_image_display) StdoutLine: {'line': b'running develop\n'}
+[1.406591] (-) TimerEvent: {}
+[1.507639] (-) TimerEvent: {}
+[1.579029] (camera_image_display) StdoutLine: {'line': b'running egg_info\n'}
+[1.580120] (camera_image_display) StdoutLine: {'line': b'writing camera_image_display.egg-info/PKG-INFO\n'}
+[1.580592] (camera_image_display) StdoutLine: {'line': b'writing dependency_links to camera_image_display.egg-info/dependency_links.txt\n'}
+[1.580944] (camera_image_display) StdoutLine: {'line': b'writing entry points to camera_image_display.egg-info/entry_points.txt\n'}
+[1.581284] (camera_image_display) StdoutLine: {'line': b'writing requirements to camera_image_display.egg-info/requires.txt\n'}
+[1.581621] (camera_image_display) StdoutLine: {'line': b'writing top-level names to camera_image_display.egg-info/top_level.txt\n'}
+[1.584236] (camera_image_display) StdoutLine: {'line': b"reading manifest file 'camera_image_display.egg-info/SOURCES.txt'\n"}
+[1.585803] (camera_image_display) StdoutLine: {'line': b"writing manifest file 'camera_image_display.egg-info/SOURCES.txt'\n"}
+[1.590492] (camera_image_display) StdoutLine: {'line': b'running build_ext\n'}
+[1.591510] (camera_image_display) StdoutLine: {'line': b'Creating /home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera-image-display.egg-link (link to .)\n'}
+[1.592265] (camera_image_display) StdoutLine: {'line': b'Installing camera_image_display script to /home/elf/ros_ws/install/camera_image_display/lib/camera_image_display\n'}
+[1.592741] (camera_image_display) StdoutLine: {'line': b'\n'}
+[1.593129] (camera_image_display) StdoutLine: {'line': b'Installed /home/elf/ros_ws/build/camera_image_display\n'}
+[1.593469] (camera_image_display) StdoutLine: {'line': b'running symlink_data\n'}
+[1.597046] (ascamera) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.608005] (-) TimerEvent: {}
+[1.613052] (ascamera) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.630872] (ascamera) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.684199] (camera_image_display) CommandEnded: {'returncode': 0}
+[1.698381] (camera_image_display) JobEnded: {'identifier': 'camera_image_display', 'rc': 0}
+[1.708059] (-) TimerEvent: {}
+[1.809159] (-) TimerEvent: {}
+[1.845482] (ascamera) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.909305] (-) TimerEvent: {}
+[2.011490] (-) TimerEvent: {}
+[2.092816] (ascamera) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.111604] (-) TimerEvent: {}
+[2.212821] (-) TimerEvent: {}
+[2.314136] (-) TimerEvent: {}
+[2.333272] (ascamera) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:40 (find_package):\n'}
+[2.334261] (ascamera) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[2.334790] (ascamera) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[2.335237] (ascamera) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.335646] (ascamera) StderrLine: {'line': b'\n'}
+[2.336020] (ascamera) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[2.336372] (ascamera) StderrLine: {'line': b'\n'}
+[2.336714] (ascamera) StderrLine: {'line': b'    /usr\n'}
+[2.337084] (ascamera) StderrLine: {'line': b'\n'}
+[2.337428] (ascamera) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[2.337768] (ascamera) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.338106] (ascamera) StderrLine: {'line': b'\x1b[0m\n'}
+[2.344828] (ascamera) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.350253] (ascamera) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.414190] (-) TimerEvent: {}
+[2.464412] (ascamera) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.469358] (ascamera) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.471134] (ascamera) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.488362] (ascamera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.514253] (-) TimerEvent: {}
+[2.615002] (-) TimerEvent: {}
+[2.684674] (ascamera) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.687418] (ascamera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.687863] (ascamera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/elf/ros_ws/ascamera/include;/home/elf/ros_ws/ascamera/libs/include;$<BUILD_INTERFACE:/home/elf/ros_ws/ascamera/include>\n'}
+[2.687968] (ascamera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.690555] (ascamera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.690636] (ascamera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.691354] (ascamera) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.692271] (ascamera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.693000] (ascamera) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.695494] (ascamera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.695569] (ascamera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.696228] (ascamera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.697904] (ascamera) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.715151] (-) TimerEvent: {}
+[2.753076] (ascamera) StdoutLine: {'line': b'-- Generating done\n'}
+[2.769837] (ascamera) StdoutLine: {'line': b'-- Build files have been written to: /home/elf/ros_ws/build/ascamera\n'}
+[2.815265] (-) TimerEvent: {}
+[2.819577] (ascamera) CommandEnded: {'returncode': 0}
+[2.823885] (ascamera) JobProgress: {'identifier': 'ascamera', 'progress': 'build'}
+[2.824072] (ascamera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/elf/ros_ws/build/ascamera', '--', '-j8', '-l8'], 'cwd': '/home/elf/ros_ws/build/ascamera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'elf'), ('SSH_CLIENT', '10.198.178.206 57244 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::rknn-llm/rkllm-runtime/linux/librkllm_api/aarch64'), ('BROWSER', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/elf'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/elf/ros_ws'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f951855c-d45e-49d4-8ed2-2f73eeaf5c86.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](ros_venv) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/elf/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'elf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/elf/ros_venv/bin:/home/elf/Software/watchload-for-rk3588:/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/elf/.local/bin:/opt/ros/humble/bin:/home/elf/miniconda3/condabin:/home/elf/Software/watchload-for-rk3588:/home/elf/Software/watchload-for-rk3588:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(ros_venv)'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eb470209b5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/elf/ros_ws/install/camera_image_display:/home/elf/ros_ws/install/ascamera:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/elf/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VIRTUAL_ENV', '/home/elf/ros_venv'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/elf/ros_ws/build/ascamera'), ('CONDA_EXE', '/home/elf/miniconda3/bin/conda'), ('SSH_CONNECTION', '10.198.178.206 57244 10.195.9.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/elf/ros_ws/build/camera_image_display:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/elf/miniconda3'), ('TZ', 'Asia/Shanghai'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/elf/ros_ws/install/ascamera:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble')]), 'shell': False}
+[2.915530] (-) TimerEvent: {}
+[2.980907] (ascamera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/ascamera_node.cpp.o\x1b[0m\n'}
+[2.982166] (ascamera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/Camera.cpp.o\x1b[0m\n'}
+[2.982867] (ascamera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/TfTreeFrameIdInfo.cpp.o\x1b[0m\n'}
+[2.994231] (ascamera) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/CameraSrv.cpp.o\x1b[0m\n'}
+[3.002577] (ascamera) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ascamera_node.dir/src/CameraPublisher.cpp.o\x1b[0m\n'}
+[3.015730] (-) TimerEvent: {}
+[3.116578] (-) TimerEvent: {}
+[3.217575] (-) TimerEvent: {}
+[3.318635] (-) TimerEvent: {}
+[3.419641] (-) TimerEvent: {}
+[3.520714] (-) TimerEvent: {}
+[3.621714] (-) TimerEvent: {}
+[3.722761] (-) TimerEvent: {}
+[3.823819] (-) TimerEvent: {}
+[3.924984] (-) TimerEvent: {}
+[4.025857] (-) TimerEvent: {}
+[4.126757] (-) TimerEvent: {}
+[4.227803] (-) TimerEvent: {}
+[4.328798] (-) TimerEvent: {}
+[4.429665] (-) TimerEvent: {}
+[4.530543] (-) TimerEvent: {}
+[4.631763] (-) TimerEvent: {}
+[4.732622] (-) TimerEvent: {}
+[4.833434] (-) TimerEvent: {}
+[4.934351] (-) TimerEvent: {}
+[5.035221] (-) TimerEvent: {}
+[5.136092] (-) TimerEvent: {}
+[5.153851] (ascamera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/elf/ros_ws/ascamera/include/CameraPublisher.h:40\x1b[m\x1b[K,\n'}
+[5.156891] (ascamera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/ascamera_node.cpp:16\x1b[m\x1b[K:\n'}
+[5.157568] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.158141] (ascamera) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[5.158673] (ascamera) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.191334] (ascamera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/elf/ros_ws/ascamera/include/CameraPublisher.h:40\x1b[m\x1b[K,\n'}
+[5.192164] (ascamera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:29\x1b[m\x1b[K:\n'}
+[5.192883] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.193443] (ascamera) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[5.194011] (ascamera) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.236341] (-) TimerEvent: {}
+[5.337584] (-) TimerEvent: {}
+[5.438632] (-) TimerEvent: {}
+[5.539566] (-) TimerEvent: {}
+[5.640507] (-) TimerEvent: {}
+[5.741335] (-) TimerEvent: {}
+[5.842771] (-) TimerEvent: {}
+[5.943917] (-) TimerEvent: {}
+[6.044853] (-) TimerEvent: {}
+[6.145612] (-) TimerEvent: {}
+[6.246454] (-) TimerEvent: {}
+[6.347321] (-) TimerEvent: {}
+[6.448129] (-) TimerEvent: {}
+[6.549029] (-) TimerEvent: {}
+[6.649838] (-) TimerEvent: {}
+[6.750678] (-) TimerEvent: {}
+[6.851505] (-) TimerEvent: {}
+[6.952312] (-) TimerEvent: {}
+[7.053109] (-) TimerEvent: {}
+[7.154015] (-) TimerEvent: {}
+[7.254935] (-) TimerEvent: {}
+[7.355947] (-) TimerEvent: {}
+[7.456955] (-) TimerEvent: {}
+[7.539526] (ascamera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/elf/ros_ws/ascamera/include/CameraPublisher.h:40\x1b[m\x1b[K,\n'}
+[7.540867] (ascamera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:13\x1b[m\x1b[K:\n'}
+[7.541765] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.542623] (ascamera) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[7.543169] (ascamera) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.557136] (-) TimerEvent: {}
+[7.658163] (-) TimerEvent: {}
+[7.759203] (-) TimerEvent: {}
+[7.860220] (-) TimerEvent: {}
+[7.961269] (-) TimerEvent: {}
+[8.062257] (-) TimerEvent: {}
+[8.163349] (-) TimerEvent: {}
+[8.264396] (-) TimerEvent: {}
+[8.365576] (-) TimerEvent: {}
+[8.466932] (-) TimerEvent: {}
+[8.567981] (-) TimerEvent: {}
+[8.669019] (-) TimerEvent: {}
+[8.770164] (-) TimerEvent: {}
+[8.871101] (-) TimerEvent: {}
+[8.971998] (-) TimerEvent: {}
+[9.073085] (-) TimerEvent: {}
+[9.174189] (-) TimerEvent: {}
+[9.274716] (-) TimerEvent: {}
+[9.375326] (-) TimerEvent: {}
+[9.475851] (-) TimerEvent: {}
+[9.576322] (-) TimerEvent: {}
+[9.677320] (-) TimerEvent: {}
+[9.779076] (-) TimerEvent: {}
+[9.880102] (-) TimerEvent: {}
+[9.981040] (-) TimerEvent: {}
+[10.081935] (-) TimerEvent: {}
+[10.182923] (-) TimerEvent: {}
+[10.283859] (-) TimerEvent: {}
+[10.385008] (-) TimerEvent: {}
+[10.485946] (-) TimerEvent: {}
+[10.586864] (-) TimerEvent: {}
+[10.687807] (-) TimerEvent: {}
+[10.788752] (-) TimerEvent: {}
+[10.889770] (-) TimerEvent: {}
+[10.991002] (-) TimerEvent: {}
+[11.091932] (-) TimerEvent: {}
+[11.193019] (-) TimerEvent: {}
+[11.294075] (-) TimerEvent: {}
+[11.395035] (-) TimerEvent: {}
+[11.496083] (-) TimerEvent: {}
+[11.597205] (-) TimerEvent: {}
+[11.698428] (-) TimerEvent: {}
+[11.799659] (-) TimerEvent: {}
+[11.900753] (-) TimerEvent: {}
+[11.911153] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CameraSrv::start()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.911471] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:63:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.911579] (ascamera) StderrLine: {'line': b'   63 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KonAttached = onAttached,\n'}
+[11.911652] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.911718] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:64:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.911790] (ascamera) StderrLine: {'line': b'   64 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KonDetached = onDetached,\n'}
+[11.911854] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.911917] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:65:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.911983] (ascamera) StderrLine: {'line': b'   65 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[KprivateData = this,\n'}
+[11.912045] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.922060] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void CameraSrv::onAttached(AS_CAM_ATTR_S*, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.922262] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:110:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.922348] (ascamera) StderrLine: {'line': b'  110 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[Kopen = true,\n'}
+[11.922415] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.922478] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:111:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.922551] (ascamera) StderrLine: {'line': b'  111 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[Kstart = true,\n'}
+[11.922615] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.922677] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:112:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KC++ designated initializers only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++20\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.922743] (ascamera) StderrLine: {'line': b'  112 |         \x1b[01;35m\x1b[K.\x1b[m\x1b[Kimage_flag = 0,\n'}
+[11.922805] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.975654] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint CameraSrv::getConfigFile(AS_CAM_PTR, std::string&, AS_SDK_CAM_MODEL_E)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.975973] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraSrv.cpp:294:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kis_exist\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.976057] (ascamera) StderrLine: {'line': b'  294 |     bool \x1b[01;35m\x1b[Kis_exist\x1b[m\x1b[K = false;\n'}
+[11.976122] (ascamera) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.000844] (-) TimerEvent: {}
+[12.101307] (-) TimerEvent: {}
+[12.201936] (-) TimerEvent: {}
+[12.303336] (-) TimerEvent: {}
+[12.404793] (-) TimerEvent: {}
+[12.505844] (-) TimerEvent: {}
+[12.606742] (-) TimerEvent: {}
+[12.707802] (-) TimerEvent: {}
+[12.808707] (-) TimerEvent: {}
+[12.909680] (-) TimerEvent: {}
+[13.010721] (-) TimerEvent: {}
+[13.112144] (-) TimerEvent: {}
+[13.213058] (-) TimerEvent: {}
+[13.313893] (-) TimerEvent: {}
+[13.414342] (-) TimerEvent: {}
+[13.514799] (-) TimerEvent: {}
+[13.615272] (-) TimerEvent: {}
+[13.715760] (-) TimerEvent: {}
+[13.816212] (-) TimerEvent: {}
+[13.916647] (-) TimerEvent: {}
+[14.017106] (-) TimerEvent: {}
+[14.117547] (-) TimerEvent: {}
+[14.217990] (-) TimerEvent: {}
+[14.281101] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraPublisher::irInfoPublisher(AS_CAM_PTR, const AS_SDK_Data_s*, AS_CAM_Parameter_s&, builtin_interfaces::msg::Time)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.281452] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:925:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.281540] (ascamera) StderrLine: {'line': b'  925 |                                       AS_CAM_Parameter_s &stParameter, \x1b[01;35m\x1b[Kbuiltin_interfaces::msg::Time time\x1b[m\x1b[K)\n'}
+[14.281613] (ascamera) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.284932] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraPublisher::peakInfoPublisher(AS_CAM_PTR, const AS_SDK_Data_s*, AS_CAM_Parameter_s&, builtin_interfaces::msg::Time)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.285088] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:957:104:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.285165] (ascamera) StderrLine: {'line': b'  957 |                                         AS_CAM_Parameter_s &stParameter, \x1b[01;35m\x1b[Kbuiltin_interfaces::msg::Time time\x1b[m\x1b[K)\n'}
+[14.285231] (ascamera) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.289687] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraPublisher::depthMergeInfoPublisher(AS_CAM_PTR, const AS_SDK_MERGE_s*, AS_CAM_Parameter_s&, builtin_interfaces::msg::Time)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.290227] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1004:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KstParameter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.290348] (ascamera) StderrLine: {'line': b' 1004 |         \x1b[01;35m\x1b[KAS_CAM_Parameter_s &stParameter\x1b[m\x1b[K, builtin_interfaces::msg::Time time)\n'}
+[14.290417] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.290485] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraPublisher::pointcloudMergePublisher(AS_CAM_PTR, const AS_SDK_MERGE_s*, AS_CAM_Parameter_s&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.290562] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1057:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.290657] (ascamera) StderrLine: {'line': b' 1057 |     for (int i = 0 ; \x1b[01;35m\x1b[Ki < stPointCloud.points.size()\x1b[m\x1b[K; i++) {\n'}
+[14.290721] (ascamera) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.293688] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1042:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KstParameter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.293825] (ascamera) StderrLine: {'line': b' 1042 |         \x1b[01;35m\x1b[KAS_CAM_Parameter_s &stParameter\x1b[m\x1b[K)\n'}
+[14.293895] (ascamera) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.318055] (-) TimerEvent: {}
+[14.344911] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraPublisher::saveImage(const string&, const AS_SDK_Data_s*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.345220] (ascamera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/elf/ros_ws/ascamera/src/CameraPublisher.cpp:1231:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kserialno\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.345302] (ascamera) StderrLine: {'line': b' 1231 | void CameraPublisher::saveImage(\x1b[01;35m\x1b[Kconst std::string &serialno\x1b[m\x1b[K, const AS_SDK_Data_s *pstData)\n'}
+[14.345369] (ascamera) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[14.418304] (-) TimerEvent: {}
+[14.518868] (-) TimerEvent: {}
+[14.619294] (-) TimerEvent: {}
+[14.719773] (-) TimerEvent: {}
+[14.820367] (-) TimerEvent: {}
+[14.920953] (-) TimerEvent: {}
+[15.021535] (-) TimerEvent: {}
+[15.122129] (-) TimerEvent: {}
+[15.222947] (-) TimerEvent: {}
+[15.323540] (-) TimerEvent: {}
+[15.424141] (-) TimerEvent: {}
+[15.524722] (-) TimerEvent: {}
+[15.625308] (-) TimerEvent: {}
+[15.726296] (-) TimerEvent: {}
+[15.826916] (-) TimerEvent: {}
+[15.927758] (-) TimerEvent: {}
+[16.028520] (-) TimerEvent: {}
+[16.129253] (-) TimerEvent: {}
+[16.229832] (-) TimerEvent: {}
+[16.330432] (-) TimerEvent: {}
+[16.431009] (-) TimerEvent: {}
+[16.532166] (-) TimerEvent: {}
+[16.632866] (-) TimerEvent: {}
+[16.733597] (-) TimerEvent: {}
+[16.834334] (-) TimerEvent: {}
+[16.935066] (-) TimerEvent: {}
+[17.035990] (-) TimerEvent: {}
+[17.137724] (-) TimerEvent: {}
+[17.239777] (-) TimerEvent: {}
+[17.341291] (-) TimerEvent: {}
+[17.442507] (-) TimerEvent: {}
+[17.543892] (-) TimerEvent: {}
+[17.645051] (-) TimerEvent: {}
+[17.746408] (-) TimerEvent: {}
+[17.847864] (-) TimerEvent: {}
+[17.949020] (-) TimerEvent: {}
+[18.050478] (-) TimerEvent: {}
+[18.151614] (-) TimerEvent: {}
+[18.252928] (-) TimerEvent: {}
+[18.354210] (-) TimerEvent: {}
+[18.456654] (-) TimerEvent: {}
+[18.557924] (-) TimerEvent: {}
+[18.659136] (-) TimerEvent: {}
+[18.760389] (-) TimerEvent: {}
+[18.861657] (-) TimerEvent: {}
+[18.962874] (-) TimerEvent: {}
+[19.064319] (-) TimerEvent: {}
+[19.165721] (-) TimerEvent: {}
+[19.267876] (-) TimerEvent: {}
+[19.369783] (-) TimerEvent: {}
+[19.471069] (-) TimerEvent: {}
+[19.573014] (-) TimerEvent: {}
+[19.675114] (-) TimerEvent: {}
+[19.776022] (-) TimerEvent: {}
+[19.877295] (-) TimerEvent: {}
+[19.978502] (-) TimerEvent: {}
+[20.080228] (-) TimerEvent: {}
+[20.182353] (-) TimerEvent: {}
+[20.283706] (-) TimerEvent: {}
+[20.385429] (-) TimerEvent: {}
+[20.486641] (-) TimerEvent: {}
+[20.587871] (-) TimerEvent: {}
+[20.689472] (-) TimerEvent: {}
+[20.791449] (-) TimerEvent: {}
+[20.892695] (-) TimerEvent: {}
+[20.993970] (-) TimerEvent: {}
+[21.095216] (-) TimerEvent: {}
+[21.196537] (-) TimerEvent: {}
+[21.297922] (-) TimerEvent: {}
+[21.399539] (-) TimerEvent: {}
+[21.500885] (-) TimerEvent: {}
+[21.602087] (-) TimerEvent: {}
+[21.703350] (-) TimerEvent: {}
+[21.804655] (-) TimerEvent: {}
+[21.905934] (-) TimerEvent: {}
+[22.007909] (-) TimerEvent: {}
+[22.109291] (-) TimerEvent: {}
+[22.210628] (-) TimerEvent: {}
+[22.311955] (-) TimerEvent: {}
+[22.413128] (-) TimerEvent: {}
+[22.514410] (-) TimerEvent: {}
+[22.616388] (-) TimerEvent: {}
+[22.718324] (-) TimerEvent: {}
+[22.819830] (-) TimerEvent: {}
+[22.921069] (-) TimerEvent: {}
+[23.022245] (-) TimerEvent: {}
+[23.124107] (-) TimerEvent: {}
+[23.225637] (-) TimerEvent: {}
+[23.326864] (-) TimerEvent: {}
+[23.428015] (-) TimerEvent: {}
+[23.529172] (-) TimerEvent: {}
+[23.630996] (-) TimerEvent: {}
+[23.733394] (-) TimerEvent: {}
+[23.835212] (-) TimerEvent: {}
+[23.936370] (-) TimerEvent: {}
+[24.037609] (-) TimerEvent: {}
+[24.138937] (-) TimerEvent: {}
+[24.241198] (-) TimerEvent: {}
+[24.342633] (-) TimerEvent: {}
+[24.444039] (-) TimerEvent: {}
+[24.545270] (-) TimerEvent: {}
+[24.646346] (-) TimerEvent: {}
+[24.746978] (-) TimerEvent: {}
+[24.847861] (-) TimerEvent: {}
+[24.948550] (-) TimerEvent: {}
+[25.049249] (-) TimerEvent: {}
+[25.149849] (-) TimerEvent: {}
+[25.250477] (-) TimerEvent: {}
+[25.351066] (-) TimerEvent: {}
+[25.451667] (-) TimerEvent: {}
+[25.552236] (-) TimerEvent: {}
+[25.652937] (-) TimerEvent: {}
+[25.753627] (-) TimerEvent: {}
+[25.854238] (-) TimerEvent: {}
+[25.955020] (-) TimerEvent: {}
+[26.055627] (-) TimerEvent: {}
+[26.156230] (-) TimerEvent: {}
+[26.257470] (-) TimerEvent: {}
+[26.358390] (-) TimerEvent: {}
+[26.458992] (-) TimerEvent: {}
+[26.559677] (-) TimerEvent: {}
+[26.660292] (-) TimerEvent: {}
+[26.760925] (-) TimerEvent: {}
+[26.861557] (-) TimerEvent: {}
+[26.962142] (-) TimerEvent: {}
+[27.063013] (-) TimerEvent: {}
+[27.163918] (-) TimerEvent: {}
+[27.265606] (-) TimerEvent: {}
+[27.368077] (-) TimerEvent: {}
+[27.469517] (-) TimerEvent: {}
+[27.571764] (-) TimerEvent: {}
+[27.673776] (-) TimerEvent: {}
+[27.776099] (-) TimerEvent: {}
+[27.877471] (-) TimerEvent: {}
+[27.979632] (-) TimerEvent: {}
+[28.081312] (-) TimerEvent: {}
+[28.184135] (-) TimerEvent: {}
+[28.285728] (-) TimerEvent: {}
+[28.387031] (-) TimerEvent: {}
+[28.488300] (-) TimerEvent: {}
+[28.589774] (-) TimerEvent: {}
+[28.691636] (-) TimerEvent: {}
+[28.792235] (-) TimerEvent: {}
+[28.892882] (-) TimerEvent: {}
+[28.993501] (-) TimerEvent: {}
+[29.094133] (-) TimerEvent: {}
+[29.194751] (-) TimerEvent: {}
+[29.295533] (-) TimerEvent: {}
+[29.396172] (-) TimerEvent: {}
+[29.496949] (-) TimerEvent: {}
+[29.597566] (-) TimerEvent: {}
+[29.698204] (-) TimerEvent: {}
+[29.798785] (-) TimerEvent: {}
+[29.899336] (-) TimerEvent: {}
+[30.000629] (-) TimerEvent: {}
+[30.101594] (-) TimerEvent: {}
+[30.202312] (-) TimerEvent: {}
+[30.302911] (-) TimerEvent: {}
+[30.403505] (-) TimerEvent: {}
+[30.504133] (-) TimerEvent: {}
+[30.604754] (-) TimerEvent: {}
+[30.705975] (-) TimerEvent: {}
+[30.807245] (-) TimerEvent: {}
+[30.907858] (-) TimerEvent: {}
+[31.008656] (-) TimerEvent: {}
+[31.109259] (-) TimerEvent: {}
+[31.209877] (-) TimerEvent: {}
+[31.310861] (-) TimerEvent: {}
+[31.411687] (-) TimerEvent: {}
+[31.512286] (-) TimerEvent: {}
+[31.612881] (-) TimerEvent: {}
+[31.713475] (-) TimerEvent: {}
+[31.814066] (-) TimerEvent: {}
+[31.914680] (-) TimerEvent: {}
+[32.015583] (-) TimerEvent: {}
+[32.116171] (-) TimerEvent: {}
+[32.216928] (-) TimerEvent: {}
+[32.294217] (ascamera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ascamera_node\x1b[0m\n'}
+[32.317035] (-) TimerEvent: {}
+[32.417732] (-) TimerEvent: {}
+[32.518652] (-) TimerEvent: {}
+[32.619514] (-) TimerEvent: {}
+[32.720733] (-) TimerEvent: {}
+[32.821935] (-) TimerEvent: {}
+[32.922902] (-) TimerEvent: {}
+[33.023849] (-) TimerEvent: {}
+[33.068330] (ascamera) StdoutLine: {'line': b'[100%] Built target ascamera_node\n'}
+[33.100249] (ascamera) CommandEnded: {'returncode': 0}
+[33.103191] (ascamera) JobProgress: {'identifier': 'ascamera', 'progress': 'install'}
+[33.118318] (ascamera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/elf/ros_ws/build/ascamera'], 'cwd': '/home/elf/ros_ws/build/ascamera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'elf'), ('SSH_CLIENT', '10.198.178.206 57244 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::rknn-llm/rkllm-runtime/linux/librkllm_api/aarch64'), ('BROWSER', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/elf'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/elf/ros_ws'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f951855c-d45e-49d4-8ed2-2f73eeaf5c86.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](ros_venv) \\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/elf/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'elf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/elf/ros_venv/bin:/home/elf/Software/watchload-for-rk3588:/home/elf/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/elf/.local/bin:/opt/ros/humble/bin:/home/elf/miniconda3/condabin:/home/elf/Software/watchload-for-rk3588:/home/elf/Software/watchload-for-rk3588:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(ros_venv)'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eb470209b5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/elf/ros_ws/install/camera_image_display:/home/elf/ros_ws/install/ascamera:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/elf/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('VIRTUAL_ENV', '/home/elf/ros_venv'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/elf/ros_ws/build/ascamera'), ('CONDA_EXE', '/home/elf/miniconda3/bin/conda'), ('SSH_CONNECTION', '10.198.178.206 57244 10.195.9.1 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/elf/ros_ws/build/camera_image_display:/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/elf/miniconda3'), ('TZ', 'Asia/Shanghai'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/elf/ros_ws/install/ascamera:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble')]), 'shell': False}
+[33.123987] (-) TimerEvent: {}
+[33.144984] (ascamera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.146506] (ascamera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.147708] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/lib/ascamera/ascamera_node\n'}
+[33.172946] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/ascamera.launch.py\n'}
+[33.196295] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/changA.launch.py\n'}
+[33.208582] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60c.launch.py\n'}
+[33.224134] (-) TimerEvent: {}
+[33.234074] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60cn.launch.py\n'}
+[33.248729] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kondyor.launch.py\n'}
+[33.261962] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_a.launch.py\n'}
+[33.278747] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_c.launch.py\n'}
+[33.295622] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/nuwa.launch.py\n'}
+[33.324496] (-) TimerEvent: {}
+[33.327308] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/package_run_dependencies/ascamera\n'}
+[33.345575] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/parent_prefix_path/ascamera\n'}
+[33.360199] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.sh\n'}
+[33.394391] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.dsv\n'}
+[33.425658] (-) TimerEvent: {}
+[33.426833] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.sh\n'}
+[33.443464] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.dsv\n'}
+[33.459179] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.bash\n'}
+[33.477732] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.sh\n'}
+[33.494312] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.zsh\n'}
+[33.509568] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.dsv\n'}
+[33.525550] (-) TimerEvent: {}
+[33.526894] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/package.dsv\n'}
+[33.542722] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/packages/ascamera\n'}
+[33.559955] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig.cmake\n'}
+[33.577308] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig-version.cmake\n'}
+[33.594223] (ascamera) StdoutLine: {'line': b'-- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/package.xml\n'}
+[33.619416] (ascamera) CommandEnded: {'returncode': 0}
+[33.626666] (-) TimerEvent: {}
+[33.670144] (ascamera) JobEnded: {'identifier': 'ascamera', 'rc': 0}
+[33.673343] (-) EventReactorShutdown: {}

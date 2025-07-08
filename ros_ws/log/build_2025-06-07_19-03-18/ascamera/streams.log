@@ -1,0 +1,90 @@
+[0.031s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/elf/ros_ws/ascamera -DCMAKE_INSTALL_PREFIX=/home/elf/ros_ws/install/ascamera
+[0.163s] [0mdefault compiler:aarch64-linux-gnu-g++[0m
+[0.165s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.381s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.407s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.463s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.467s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.587s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.590s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.829s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.892s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.968s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.024s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[1.876s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.888s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.134s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.145s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.160s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.375s] -- Found Qhull version 8.0.2
+[2.604s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.838s] [33mCMake Warning (dev) at CMakeLists.txt:40 (find_package):
+[2.838s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.838s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.838s]   command to set the policy and suppress this warning.
+[2.838s] 
+[2.838s]   CMake variable PCL_ROOT is set to:
+[2.838s] 
+[2.838s]     /usr
+[2.838s] 
+[2.839s]   For compatibility, CMake is ignoring the variable.
+[2.839s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.839s] [0m
+[2.855s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.864s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.011s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.018s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.020s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.037s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.242s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.251s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.252s] -- Configured cppcheck include dirs: /home/elf/ros_ws/ascamera/include;/home/elf/ros_ws/ascamera/libs/include;$<BUILD_INTERFACE:/home/elf/ros_ws/ascamera/include>
+[3.253s] -- Configured cppcheck exclude dirs and/or files: 
+[3.256s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.256s] -- Configured cpplint exclude dirs and/or files: 
+[3.257s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.258s] -- Added test 'lint_cmake' to check CMake code style
+[3.259s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.261s] -- Added test 'uncrustify' to check C / C++ code style
+[3.261s] -- Configured uncrustify additional arguments: 
+[3.262s] -- Added test 'xmllint' to check XML markup files
+[3.264s] -- Configuring done
+[3.368s] -- Generating done
+[3.383s] -- Build files have been written to: /home/elf/ros_ws/build/ascamera
+[3.427s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/elf/ros_ws/ascamera -DCMAKE_INSTALL_PREFIX=/home/elf/ros_ws/install/ascamera
+[3.438s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/elf/ros_ws/build/ascamera -- -j8 -l8
+[3.576s] [35m[1mConsolidate compiler generated dependencies of target ascamera_node[0m
+[3.725s] [100%] Built target ascamera_node
+[3.759s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/elf/ros_ws/build/ascamera -- -j8 -l8
+[3.783s] Invoking command in '/home/elf/ros_ws/build/ascamera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/elf/ros_ws/build/ascamera
+[3.798s] -- Install configuration: ""
+[3.799s] -- Execute custom install script
+[3.799s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/lib/ascamera/ascamera_node
+[3.799s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/ascamera.launch.py
+[3.799s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/changA.launch.py
+[3.799s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60c.launch.py
+[3.800s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/hp60cn.launch.py
+[3.800s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kondyor.launch.py
+[3.800s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_a.launch.py
+[3.800s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/kunlun_c.launch.py
+[3.800s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/launch/nuwa.launch.py
+[3.800s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/package_run_dependencies/ascamera
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/parent_prefix_path/ascamera
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.sh
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/ament_prefix_path.dsv
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.sh
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/environment/path.dsv
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.bash
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.sh
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.zsh
+[3.801s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/local_setup.dsv
+[3.802s] -- Symlinking: /home/elf/ros_ws/install/ascamera/share/ascamera/package.dsv
+[3.831s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ament_index/resource_index/packages/ascamera
+[3.832s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig.cmake
+[3.832s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/cmake/ascameraConfig-version.cmake
+[3.833s] -- Up-to-date symlink: /home/elf/ros_ws/install/ascamera/share/ascamera/package.xml
+[3.839s] Invoked command in '/home/elf/ros_ws/build/ascamera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elf/ros_ws/install/camera_image_display:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/elf/ros_ws/build/ascamera

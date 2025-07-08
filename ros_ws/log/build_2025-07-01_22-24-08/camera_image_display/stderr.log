@@ -1,0 +1,5 @@
+  File "/home/elf/ros_ws/install/camera_image_display/lib/python3.10/site-packages/camera_image_display/llm_web_node.py", line 163
+    except requests.exceptions.Timeout:
+    ^^^^^^
+SyntaxError: invalid syntax
+
